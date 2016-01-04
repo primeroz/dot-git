@@ -1,0 +1,65 @@
+##############################################################################
+# @file gitconfig
+# @date January, 2016
+# @author G. Roggemans <g.roggemans@grog.be>
+# @copyright Copyright (c) GROG [https://grog.be] 2016, All Rights Reserved
+# @license MIT
+##############################################################################
+
+[core]
+    editor = vim
+
+[push]
+    default = simple
+
+[alias]
+    c = commit -v
+    com = checkout master
+    co = checkout
+    cob = checkout -b
+    st = status
+    rc = commit -v --amend
+    uc = reset --soft HEAD~1
+
+##############################################################################
+# Colors
+
+[color]
+    ui = auto
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+
+##############################################################################
+# Url shortcuts
+
+[url "https://github.com/"]
+    insteadOf = gh:
+
+[url "ssh://git@github.com/"]
+    insteadOf = sgh:
+
+[url "https://gist.github.com/"]
+    insteadOf = gist:
+
+[url "ssh://git@gist.github.com/"]
+    insteadOf = sgist:
+
+[url "https://gitlab.com/"]
+    insteadOf = gl:
+
+[url "ssh://git@gitlab.com/"]
+    insteadOf = sgl:
+
+##############################################################################
+# Include
+
+[include]
+    path = ~/.gituserconfig
+
+[include]
+    path = ~/.gitinclude
+
+##############################################################################
+# vim: ft=gitconfig
