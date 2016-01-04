@@ -3,6 +3,9 @@ My git configuration
 
 Feel free to use it as a starting point for your own git configuration!
 
+The personal part of my git config can be found in my
+[dot-git-user][dot-git-user] config.
+
 ## Install
 This git config is available as [Ellipsis][Ellipsis] package. It is highly
 recommended to use Ellipsis for installation, although manual installation is
@@ -26,5 +29,4 @@ By [G. Roggemans][groggemans]
 MIT
 
 [Ellipsis]:             https://github.com/ellipsis/ellipsis
-
 [groggemans]:           https://github.com/groggemans
