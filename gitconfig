@@ -13,10 +13,12 @@
     default = simple
 
 [alias]
+    a = add
     c = commit -v
-    com = checkout master
+    cl = clone
     co = checkout
     cob = checkout -b
+    com = checkout master
     st = status
     rc = commit -v --amend
     uc = reset --soft HEAD~1
@@ -59,7 +61,7 @@
     path = ~/.gituserconfig
 
 [include]
-    path = ~/.gitinclude
+    path = ~/.gitconfig.local
 
 ##############################################################################
 # vim: ft=gitconfig
