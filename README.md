@@ -28,5 +28,6 @@ By [G. Roggemans][groggemans]
 ## License
 MIT
 
+[dot-git-user]:         https://github.com/groggemans/dot-git-user
 [Ellipsis]:             https://github.com/ellipsis/ellipsis
 [groggemans]:           https://github.com/groggemans
