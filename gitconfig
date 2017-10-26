@@ -62,6 +62,7 @@
 
 [include]
     path = ~/.gitconfig.local
+    path = ~/.vim/gitinclude
 
 ##############################################################################
 # vim: ft=gitconfig
