@@ -22,6 +22,9 @@
     st = status
     rc = commit -v --amend
     uc = reset --soft HEAD~1
+		lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+		lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+		lg = !"git lg1"
 
 ##############################################################################
 # Colors
@@ -62,7 +65,7 @@
 
 [include]
     path = ~/.gitconfig.local
-    path = ~/.vim/gitinclude
+    #path = ~/.vim/gitinclude
 
 ##############################################################################
 # vim: ft=gitconfig

@@ -1,0 +1,15 @@
+[user]
+	name = Francesco Ciocchetti
+	email = primeroznl@gmail.com
+	#signingkey = 0xXXXX
+[commit]
+	gpgsign = false
+[gpg]
+	program = /usr/bin/gpg2
+[diff]
+	tool = meld
+[merge]
+	tool = meld
+	conflictstyle = diff3
+[difftool]
+	prompt = false

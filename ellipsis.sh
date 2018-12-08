@@ -7,5 +7,11 @@
 # @license MIT
 ##############################################################################
 
+pkg.link() {
+    fs.link_file "$PKG_PATH/gitconfig" "$HOME/.gitconfig"
+    fs.link_file "$PKG_PATH/gituserconfig.$USER" "$HOME/.gituserconfig"
+}
+
+
 ##############################################################################
 
