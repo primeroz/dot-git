@@ -1,7 +1,7 @@
 [user]
 	name = Francesco Ciocchetti
 	email = fciocchetti@mintel.com
-	#signingkey = 0xXXXX
+	signingkey = 0xE5A05434F5310FD7
 [commit]
 	gpgsign = false
 [gpg]
